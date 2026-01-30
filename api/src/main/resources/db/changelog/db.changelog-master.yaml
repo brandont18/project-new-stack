@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - include:
+      file: db/changes/master/v1__create_users.sql
+  - include:
+      file: db/changes/master/v1__create_tenants.sql
+  - include:
+      file: db/changes/master/v1__create_products.sql
+      

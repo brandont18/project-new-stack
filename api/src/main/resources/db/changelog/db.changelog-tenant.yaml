@@ -1,0 +1,6 @@
+databaseChangeLog:
+  - include:
+      file: db/changes/tenant/v1__create_locations.sql
+  - include:
+      file: db/changes/tenant/v1__create_assigned_products.sql
+      
